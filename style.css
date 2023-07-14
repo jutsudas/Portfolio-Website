@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    height: 100vh;
+    
+    
+}
+.hero{
+   
+    display: flex;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("./images/heroback.jpg");
+    background-attachment: fixed;
+    color: #FFF0F5;
+    font-size: 3rem;
+    width: 100%;
+    height: 800px;
+    margin-bottom: 100px;
+    
+}
+
+div >p{
+    margin: 0;
+    margin-left: 0;
+    
+}
+
+
+
+.heading{ 
+    display: flex;
+    height: fit-content;
+    font-family: 'Montserrat', sans-serif;
+    color: purple;
+    font-size: 2rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me{
+    font-family: 'Karla', sans-serif;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 100px;
+    align-items: center;
+}
+
+.about-item1{
+    font-size: 1.5rem;
+    width: 100%;
+    text-align: center;
+    
+    
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.flex-container > *{
+    font-family: 'Karla', sans-serif;
+    width: 300px;
+}
+
+.flex-item2 >h3{
+    margin-bottom:40px ;
+}
+
+.social{
+    font-family: 'Karla', sans-serif;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.project{
+    margin-bottom: 100px;
+}
+
+.flex-container > div >h3{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.resume{
+    font-family: 'Karla', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+@media (max-width:900px) {
+    h1{
+        font-size: 3rem;
+    }
+
+    h2{
+        font-size: 2rem;
+    }
+    .flex-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .flex-item2 >h3{
+        margin-bottom:20px ;
+    }
+    .resume{
+        font-size: 1.4rem;
+        margin-top: -50px;
+    }
+}
+
+@media (max-width:480px) {
+    h1{
+        font-size: 1.4rem;
+    }
+}
